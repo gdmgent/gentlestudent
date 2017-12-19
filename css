@@ -1,0 +1,38 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - sass
+
+Backtrace:
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `read'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:109:in `method_missing'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+/Users/drdynscript/.rbenv/versions/2.3.1/bin/sass:23:in `load'
+/Users/drdynscript/.rbenv/versions/2.3.1/bin/sass:23:in `<top (required)>'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/cli/exec.rb:74:in `load'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/cli/exec.rb:27:in `run'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/cli.rb:365:in `exec'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/vendor/thor/lib/thor.rb:369:in `dispatch'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/cli.rb:22:in `dispatch'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/vendor/thor/lib/thor/base.rb:444:in `start'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/cli.rb:13:in `start'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/exe/bundle:30:in `block in <top (required)>'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
+/Users/drdynscript/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bundler-1.15.3/exe/bundle:22:in `<top (required)>'
+/Users/drdynscript/.rbenv/versions/2.3.1/bin/bundle:23:in `load'
+/Users/drdynscript/.rbenv/versions/2.3.1/bin/bundle:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - sass"; }

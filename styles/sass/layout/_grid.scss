@@ -1,0 +1,232 @@
+@media screen and (min-width: 1500px) {
+    #section2 {
+        margin-top: -40% !important;
+        iframe {
+            height: 1000% !important;
+        }
+    }
+    #section4 {
+        margin-top: -850px !important;
+    }
+    #section4-bg {
+        margin-top: 8% !important;
+    }
+    .footer1, .footer2 {
+        font-size: 18px;
+    }
+    #video {
+        margin: 0% 58.6% !important;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #section2 {
+        margin-top: -50% !important;
+    }
+    #section4 {
+        margin-top: -850px !important;
+    }
+    #section4-bg {
+        margin-top: 10% !important;
+    }
+    .footer1, .footer2 {
+        font-size: 18px;
+    }
+    #video {
+        margin: -1% 58.6% !important;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #video {
+        margin: -1.5% 58.6% !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 28px;
+    }
+    .p2 {
+        font-size: 18px;
+    }
+    footer {
+        margin-top: 260px;
+    }
+    #section2 {
+        margin-top: -66%;
+    }
+    #section4 {
+        margin-top: -760px !important;
+    }
+    .footer1, .footer2 {
+        font-size: 14px;
+    }
+    #video {
+        margin: -3% 58.6% !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    #header-nav {
+        font-size: 14px;
+        li {
+            margin: 0px 15px;
+        }
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .p1 {
+        font-size: 14px;
+    }
+    .p2 {
+        font-size: 16px;
+    }
+    #section4 {
+        margin-top: -640px !important;
+    }
+    #section4-bg {
+        margin-top: 15% !important;
+    }
+    .footer1, .footer2 {
+        font-size: 12px;
+    }
+    #video {
+        margin: -3% 58.6% !important;
+    }
+    footer {
+        margin-top: 135px !important;
+    }
+}
+@media screen and (max-width: 786px) {
+    #header-nav {
+        font-size: 12px;
+        li {
+            margin: 0px 10px;
+        }
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .p2 {
+        font-size: 14px;
+    }
+    #section4 {
+        margin-top: -560px !important;
+    }
+    #section4-bg {
+        margin-top: 20% !important;
+    }
+    .footer1, .footer2 {
+        font-size: 11px;
+    }
+    #video {
+        margin: -4% 58.6% !important;
+    }
+    footer {
+        margin-top: 85px !important;
+    }
+    .leerkans {
+        padding: 15px 90px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    #video {
+        margin: -5.2% 58.6% !important;
+    }
+    footer {
+        margin-top: 65px !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    #header-nav {
+        li {
+            margin: 0px 5px;
+        }
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .p1 {
+        font-size: 13px;
+    }
+    .p2 {
+        font-size: 14px;
+    }
+    #section4 {
+        margin-top: -540px !important;
+    }
+    #section4-bg {
+        margin-top: 30% !important;
+    }
+    .footer1, .footer2 {
+        font-size: 10px;
+    }
+    #video {
+        margin: -6.5% 58.6% !important;
+    }
+    footer {
+        margin-top: 60px !important;
+    }
+    .leerkans {
+        padding: 15px 75px !important;
+    }
+}
+@media screen and (max-width: 560px) {
+    #header-nav {
+        li {
+            margin: 0px 2px;
+        }
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .p1 {
+        font-size: 12px;
+    }
+    .p2 {
+        font-size: 14px;
+    }
+    #section4 {
+        margin-top: -530px !important;
+    }
+    #section4-bg {
+        margin-top: 30% !important;
+    }
+    .footer1, .footer2 {
+        font-size: 10px;
+    }
+    #video {
+        margin: -7.4% 58.6% !important;
+    }
+    .leerkans {
+        padding: 15px 60px !important;
+    }
+    footer {
+        margin-top: 55px !important;
+    }
+}
+@media screen and (max-width: 535px) {
+    .leerkans {
+        padding: 15px 50px !important;
+    }
+    footer {
+        margin-top: 50px !important;
+    }
+    #section4-bg {
+        margin-top: 40% !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .leerkans {
+        padding: 15px 50px !important;
+    }
+    footer {
+        margin-top: 30px !important;
+    }
+    #section4-bg {
+        margin-top: 50% !important;
+    }
+}

@@ -1,0 +1,69 @@
+* {
+    font-family: "Open Sans", "Source Sans Pro";
+}
+h1 {
+    font-family: "Open Sans";
+    font-size: 34px;
+    font-weight: 800;
+    color: $blue;
+    span {
+        text-decoration: underline $orange;
+    }
+}
+p {
+    font-weight: 400;
+    color: $black;
+    line-height: 1.65;
+}
+.p1 {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.65;
+}
+.p2 {
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    line-height: 1.65;
+}
+.nl, .en {
+    font-family: "Open Sans";
+    padding: 0px;
+    margin: 0px;
+}
+.nl {
+    font-size: 16px;
+    font-weight: 600;
+}
+.en {
+    font-size: 12px;
+    font-weight: 500;
+}
+.blue {
+    color: $blue;
+}
+.green {
+    color: $green;
+}
+.gray {
+    color: $gray;
+}
+.pink {
+    color: $pink;
+}
+.orange {
+    color: $orange;
+}
+footer {
+    font-size: 16px;
+    .footer1, .footer2 {
+        color: $white;
+    }
+    .footer1 {
+        font-family: "Open Sans";
+        font-weight: 500;
+    }
+    .footer2 {
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+    }
+}

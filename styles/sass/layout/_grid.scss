@@ -46,6 +46,12 @@
 }
 
 @media screen and (max-width: 1100px) {
+    #header-nav {
+        font-size: 14px;
+        li {
+            margin: 0px 5px;
+        }
+    }
     h1 {
         font-size: 28px;
     }
@@ -53,7 +59,7 @@
         font-size: 18px;
     }
     footer {
-        margin-top: 260px;
+        margin-top: 300px !important;
     }
     #section2 {
         margin-top: -66%;
@@ -69,12 +75,6 @@
     }
 }
 @media screen and (max-width: 900px) {
-    #header-nav {
-        font-size: 14px;
-        li {
-            margin: 0px 15px;
-        }
-    }
     h1 {
         font-size: 24px;
     }
@@ -97,14 +97,17 @@
         margin: -3% 58.6% !important;
     }
     footer {
-        margin-top: 135px !important;
+        margin-top: 205px !important;
     }
 }
 @media screen and (max-width: 786px) {
     #header-nav {
         font-size: 12px;
         li {
-            margin: 0px 10px;
+            margin: 0px 0px;
+            a {
+                padding: 10px 20px;
+            }
         }
     }
     h1 {
@@ -126,7 +129,7 @@
         margin: -4% 58.6% !important;
     }
     footer {
-        margin-top: 85px !important;
+        margin-top: 150px !important;
     }
     .leerkans {
         padding: 15px 90px !important;
@@ -137,13 +140,21 @@
         margin: -5.2% 58.6% !important;
     }
     footer {
-        margin-top: 65px !important;
+        margin-top: 120px !important;
+    }
+}
+@media screen and (max-width: 674px) {
+    footer {
+        margin-top: 100px !important;
     }
 }
 @media screen and (max-width: 650px) {
     #header-nav {
         li {
-            margin: 0px 5px;
+            margin: 0px 0px;
+            a {
+                padding: 7px 14px;
+            }
         }
     }
     h1 {
@@ -168,7 +179,7 @@
         margin: -6.5% 58.6% !important;
     }
     footer {
-        margin-top: 60px !important;
+        //margin-top: 100px !important;
     }
     .leerkans {
         padding: 15px 75px !important;
@@ -177,7 +188,10 @@
 @media screen and (max-width: 560px) {
     #header-nav {
         li {
-            margin: 0px 2px;
+            margin: 0px 0px;
+            a {
+                padding: 6px 10px;
+            }
         }
     }
     h1 {
@@ -205,7 +219,7 @@
         padding: 15px 60px !important;
     }
     footer {
-        margin-top: 55px !important;
+        margin-top: 100px !important;
     }
 }
 @media screen and (max-width: 535px) {
@@ -224,7 +238,7 @@
         padding: 15px 50px !important;
     }
     footer {
-        margin-top: 30px !important;
+        margin-top: 80px !important;
     }
     #section4-bg {
         margin-top: 50% !important;

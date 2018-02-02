@@ -10,6 +10,11 @@ h1 {
         text-decoration: underline $orange;
     }
 }
+#section2, #section3, #section4 {
+    h1 {
+        text-align: center !important;
+    }
+}
 p {
     font-weight: 400;
     color: $black;

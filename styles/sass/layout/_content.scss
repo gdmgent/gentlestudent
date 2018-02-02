@@ -3,7 +3,7 @@
     margin-top: 7%;
     position: relative;
     h1, p, .p2 {
-        text-align: center;
+        text-align: left;
         width: 75%;
         margin: 0 auto;
     }
@@ -47,8 +47,10 @@
         border: 7px solid $blue;
         border-radius: 15px;
     }
-    div {
-    }
+}
+.video-text {
+    margin-top: 50%;
+    text-align: left;
 }
 #section3 {
     margin-top: 15%;

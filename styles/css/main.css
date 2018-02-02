@@ -13,6 +13,9 @@ h1 {
   h1 span {
     text-decoration: underline #EE9900; }
 
+#section2 h1, #section3 h1, #section4 h1 {
+  text-align: center !important; }
+
 p {
   font-weight: 400;
   color: #636363;
@@ -89,6 +92,26 @@ nav {
         color: white;
         cursor: pointer; }
 
+#mobile-nav {
+  display: none;
+  overflow: hidden;
+  background-color: #CC0077;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  #mobile-nav ul {
+    list-style-type: none;
+    margin: 0 auto 0 auto; }
+    #mobile-nav ul a {
+      color: #F2F0ED;
+      float: right;
+      display: block;
+      text-align: center;
+      padding: 10px 30px;
+      text-decoration: none;
+      font-size: 15px; }
+
 @media screen and (min-width: 1500px) {
   #section2 {
     margin-top: -40% !important; }
@@ -127,19 +150,11 @@ nav {
   #video {
     margin: -1.5% 58.6% !important; } }
 @media screen and (max-width: 1100px) {
-  #header-nav {
-    font-size: 14px; }
-    #header-nav li {
-      margin: 0px 5px; }
-
   h1 {
     font-size: 28px; }
 
   .p2 {
     font-size: 18px; }
-
-  footer {
-    margin-top: 300px !important; }
 
   #section2 {
     margin-top: -66%; }
@@ -153,6 +168,11 @@ nav {
   #video {
     margin: -3% 58.6% !important; } }
 @media screen and (max-width: 900px) {
+  #header-nav {
+    font-size: 14px; }
+    #header-nav li {
+      margin: 0px 15px; }
+
   h1 {
     font-size: 24px; }
 
@@ -172,129 +192,83 @@ nav {
     font-size: 12px; }
 
   #video {
-    margin: -3% 58.6% !important; }
+    margin: -3% 58.6% !important; } }
+@media screen and (max-width: 785px) {
+  #section1 {
+    margin-top: 20%; }
 
-  footer {
-    margin-top: 205px !important; } }
-@media screen and (max-width: 786px) {
+  #video {
+    display: none; }
+
+  #header-bg {
+    display: none; }
+
   #header-nav {
-    font-size: 12px; }
-    #header-nav li {
-      margin: 0px 0px; }
-      #header-nav li a {
-        padding: 10px 20px; }
+    display: none; }
 
-  h1 {
-    font-size: 22px; }
+  header {
+    margin-top: 50px; }
+    header #header-bg {
+      top: 39px !important; }
 
-  .p2 {
-    font-size: 14px; }
+  #mobile-nav {
+    display: block; }
+
+  .section h1, .section p {
+    margin-top: 0px !important;
+    width: 100% !important; }
+
+  #section1 div {
+    width: 100% !important; }
+
+  #section2 iframe {
+    height: 750% !important;
+    width: 100% !important;
+    margin: 50px 0px !important; }
 
   #section4 {
-    margin-top: -560px !important; }
+    margin-top: -575px !important; } }
+@media screen and (max-width: 771px) {
+  #section2 iframe {
+    height: 350% !important; } }
+@media screen and (max-width: 600px) {
+  #mobile-nav ul li a {
+    padding: 10px 15px; }
+
+  .video-text {
+    margin-top: 60% !important; }
 
   #section4-bg {
-    margin-top: 20% !important; }
+    margin-top: 60% !important; } }
+@media screen and (max-width: 500px) {
+  #section2 iframe {
+    height: 200% !important; }
 
-  .footer1, .footer2 {
-    font-size: 11px; }
+  .video-text {
+    margin-top: 80% !important; }
 
-  #video {
-    margin: -4% 58.6% !important; }
+  .badge {
+    float: none !important;
+    margin: 0 auto !important;
+    width: 100% !important; }
 
-  footer {
-    margin-top: 150px !important; }
+  #badges-row1, #badges-row2 {
+    margin-left: 0px !important; }
 
-  .leerkans {
-    padding: 15px 90px !important; } }
-@media screen and (max-width: 700px) {
-  #video {
-    margin: -5.2% 58.6% !important; }
-
-  footer {
-    margin-top: 120px !important; } }
-@media screen and (max-width: 674px) {
-  footer {
-    margin-top: 100px !important; } }
-@media screen and (max-width: 650px) {
-  #header-nav li {
-    margin: 0px 0px; }
-    #header-nav li a {
-      padding: 7px 14px; }
+  #section4-bg {
+    margin-top: 80% !important; } }
+@media screen and (max-width: 360px) {
+  #mobile-nav ul li a {
+    padding: 10px 10px; }
 
   h1 {
     font-size: 20px; }
 
-  .p1 {
-    font-size: 13px; }
-
-  .p2 {
-    font-size: 14px; }
-
-  #section4 {
-    margin-top: -540px !important; }
+  #section2 iframe {
+    height: 180% !important; }
 
   #section4-bg {
-    margin-top: 30% !important; }
-
-  .footer1, .footer2 {
-    font-size: 10px; }
-
-  #video {
-    margin: -6.5% 58.6% !important; }
-
-  .leerkans {
-    padding: 15px 75px !important; } }
-@media screen and (max-width: 560px) {
-  #header-nav li {
-    margin: 0px 0px; }
-    #header-nav li a {
-      padding: 6px 10px; }
-
-  h1 {
-    font-size: 18px; }
-
-  .p1 {
-    font-size: 12px; }
-
-  .p2 {
-    font-size: 14px; }
-
-  #section4 {
-    margin-top: -530px !important; }
-
-  #section4-bg {
-    margin-top: 30% !important; }
-
-  .footer1, .footer2 {
-    font-size: 10px; }
-
-  #video {
-    margin: -7.4% 58.6% !important; }
-
-  .leerkans {
-    padding: 15px 60px !important; }
-
-  footer {
-    margin-top: 100px !important; } }
-@media screen and (max-width: 535px) {
-  .leerkans {
-    padding: 15px 50px !important; }
-
-  footer {
-    margin-top: 50px !important; }
-
-  #section4-bg {
-    margin-top: 40% !important; } }
-@media screen and (max-width: 500px) {
-  .leerkans {
-    padding: 15px 50px !important; }
-
-  footer {
-    margin-top: 80px !important; }
-
-  #section4-bg {
-    margin-top: 50% !important; } }
+    margin-top: 100% !important; } }
 header #header-bg {
   z-index: -999;
   position: absolute;
@@ -309,19 +283,12 @@ header #header-logo {
     left: 11%;
     top: 3%; }
 
-footer {
-  color: #F2F0ED;
-  margin-top: 330px;
-  margin-left: 12.5%;
-  background: #00AACC;
-  margin-bottom: 0px; }
-
 .section {
   margin: 4% 12.5% 15% 12.5%;
   margin-top: 7%;
   position: relative; }
   .section h1, .section p, .section .p2 {
-    text-align: center;
+    text-align: left;
     width: 75%;
     margin: 0 auto; }
 
@@ -357,6 +324,10 @@ footer {
     width: 72.8%;
     border: 7px solid #00AACC;
     border-radius: 15px; }
+
+.video-text {
+  margin-top: 50%;
+  text-align: left; }
 
 #section3 {
   margin-top: 15%; }
@@ -405,9 +376,9 @@ a {
   border-radius: 5px; }
 
 .leerkans {
-  padding: 20px 100px;
+  padding: 4% 8%;
   background-color: #CC0077;
-  border-radius: 50px; }
+  border-radius: 10px; }
 
 #section2-bg {
   z-index: -999;

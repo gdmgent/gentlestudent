@@ -24,3 +24,29 @@ nav {
         }
     }
 }
+
+#mobile-nav {
+    display: none;
+    overflow: hidden;
+    background-color: $pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    ul {
+        list-style-type: none;
+        margin: 0 auto 0 auto;
+        a {
+            color: $white;
+            float: right;
+            display: block;
+            text-align: center;
+            padding: 10px 30px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .contact {
+
+        }
+    } 
+}
